@@ -37,3 +37,4 @@ void f_div(stack_t **head, unsigned int counter)
 	h->next->n = aux;
 	*head = h->next;
 	free(h);
+}
